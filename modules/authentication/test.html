@@ -2,31 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        body {
-            margin: 15px 15px 15px 15px;
-            background: 
-                -webkit-repeating-radial-gradient(
-                    circle, 
-                    rgba(0, 0, 0, .2), 
-                    rgba(0, 0, 0, .2) 1px, 
-                    transparent 1px, 
-                    transparent 100%
-                );
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://localhost:4200/font-awesome.min.css">
+	<style>
+		body {
+			margin: 15px 15px 15px 15px;
+			background: -webkit-repeating-radial-gradient( circle,
+			rgba(0, 0, 0, .2),
+			rgba(0, 0, 0, .2) 1px,
+			transparent 1px,
+			transparent 100%);
 
+			background-size: 30px 30px;
+		}
 
-            background-size: 30px 30px;
-        }
+		.entry {
+			line-height: 30px;
+			vertical-align: middle;
+			display: flex;
+			
+			margin-bottom: 30px;
+		}
 
-    </style>
+		.entry>.check {
+			width: 30px;
+			min-width: 30px;
+			height: 30px;
+			min-height: 30px;
+			text-align: center;
+			border: 1px dotted black;
+		}
+
+		.entry>.desc {
+			padding-left: 10px;
+		}
+
+	</style>
 </head>
 
 <body>
-    things
+
+	<div class="entry">
+		<div class="check"><i class="fa fa-check"></i></div>
+		<div class="desc">Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing </div>
+	</div>
+
+	<div class="entry">
+		<div class="check"><i class="fa fa-check"></i></div>
+		<div class="desc">Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing Thing </div>
+	</div>
+
 </body>
 
 </html>
